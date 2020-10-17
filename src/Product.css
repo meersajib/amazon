@@ -1,0 +1,39 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    min-width: 100px;
+    background: #ffffff;
+    margin: 10px;
+    z-index: 1;
+}
+.product__rating{
+    color: #f0c14b;
+    margin-top: 5px;
+}
+.procut__info{
+    margin-bottom: 10px;
+}
+.product > a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.product > a > img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.product > button {
+    background: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
